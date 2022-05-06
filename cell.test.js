@@ -1,10 +1,12 @@
+/* const Board = require('./board.js');
 const Cell = require('./cell.js');
 
-test('Prueba del metodo randomStatus', () => {
+/* test('Prueba del metodo randomStatus', () => {
     const cell = new Cell();
-    expect(cell.randomStatus() === 1 || cell.randomStatus() === 0).toBeTruthy();
-});
-
+    expect(typeof cell.randomStatus()).toBe("number");
+    expect(cell.randomStatus() === parseInt(0) || cell.randomStatus() === parseInt(1)).toBeTruthy();
+}); */
+/* 
 test('Prueba del metodo getStatus', () => {
     const cell = new Cell();
     expect(cell.getStatus() === 1 || cell.getStatus() === 0).toBeTruthy();
@@ -25,7 +27,7 @@ test('Prueba del metodo setStatus', () => {
     const cell = new Cell();
     cell.setStatus(10);
     expect(cell.getStatus()).toBe(10);
-});
+}); */
 
 
-//https://flaviocopes.com/jest/#group-tests-using-describe
+//https://flaviocopes.com/jest/#group-tests-using-describe */
